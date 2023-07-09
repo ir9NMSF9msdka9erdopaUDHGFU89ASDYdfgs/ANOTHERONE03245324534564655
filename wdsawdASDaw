@@ -1,4 +1,4 @@
--- PRO TOWER OF HELL
+-- APPEAL TOWER OF HELL
 -- b0.01
 --
 --
@@ -155,7 +155,7 @@ if not game:IsLoaded() then
 	wait()
 end
 
-if game.PlaceId == 5253186791 then
+if game.PlaceId == 1962086868 then
 
 	if _G.EXH_ACTIVE == true then
 		_G.LOCALLEVEL += 1
@@ -2885,6 +2885,33 @@ if game.PlaceId == 5253186791 then
 						local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 						tween:Play()
 						tween.Completed:Wait()
+						
+						wait(3)
+						
+						if game.Players.LocalPlayer.PlayerGui.timer.timeLeft.TextColor3 == Color3.fromRGB(0, 255, 0) then
+							print("exhibition hub - cleared errors.")
+							
+						else
+							
+							local CFrameEnd = CFrame.new(finishthing) -- Place your coords in here
+							local Time = 6 -- Time in seconds
+							local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+							tween:Play()
+							tween.Completed:Wait()
+							
+							if game.Players.LocalPlayer.PlayerGui.timer.timeLeft.TextColor3 == Color3.fromRGB(0, 255, 0) then
+								print("exhibition hub - cleared errors.")
+							else
+								
+								local CFrameEnd = CFrame.new(finishthing) -- Place your coords in here
+								local Time = 6 -- Time in seconds
+								local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+								tween:Play()
+								tween.Completed:Wait()
+								
+							end
+							
+						end
 
 						repeat
 							wait()
@@ -2893,19 +2920,11 @@ if game.PlaceId == 5253186791 then
 
 
 						wait(3)
-
-						local zeroVelocity = Vector3.new(0,0,0)
-
-						local function removeVelocity(character)
-							local primaryPart = character.PrimaryPart
-							primaryPart.AssemblyLinearVelocity = zeroVelocity
-							primaryPart.AssemblyAngularVelocity = zeroVelocity 
-						end
-
-						removeVelocity(game:GetService("Players").LocalPlayer.Character)
-
-
-
+						
+						game:GetService("Players").LocalPlayer.Character.Humanoid.Sit = true
+						game:GetService("Players").LocalPlayer.Character.Humanoid.Sit = false
+						
+						
 						farmstatus.Text = "Waiting for next round."
 
 						wait(1)
@@ -3343,6 +3362,12 @@ else
 	if game.PlaceId == 3582763398 then
 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ir9NMSF9msdka9erdopaUDHGFU89ASDYdfgs/IGNORE2423423423545654/main/wda34asnawe%23w"))()
+
+	end
+
+	if game.PlaceId == 5253186791 then
+
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ir9NMSF9msdka9erdopaUDHGFU89ASDYdfgs/ANOTHERONE03245324534564655/main/wdsawdASDaw"))()
 
 	end
 
