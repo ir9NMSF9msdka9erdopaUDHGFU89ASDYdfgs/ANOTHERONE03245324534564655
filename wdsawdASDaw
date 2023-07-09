@@ -155,7 +155,7 @@ if not game:IsLoaded() then
 	wait()
 end
 
-if game.PlaceId == 1962086868 then
+if game.PlaceId == 5253186791 then
 
 	if _G.EXH_ACTIVE == true then
 		_G.LOCALLEVEL += 1
@@ -3345,20 +3345,8 @@ else
 
 	end
 
-	if game.PlaceId == 5253186791 then
 
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Important";
-			Text = "I deeply apologize if you got banned using exhibition hub. I am trying my best to update it to make it even stronger and less bannable.";
-			Duration = 15;
-		})
-
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ir9NMSF9msdka9erdopaUDHGFU89ASDYdfgs/ANOTHERONE03245324534564655/main/wdsawdASDaw"))()
-		
-	end
-
-
-	if game.PlaceId == 3582763398 or 1962086868 then
+	if game.PlaceId == 3582763398 or 1962086868 or 5253186791 then
 		print("exhibition hub - cleared errors.")
 
 
