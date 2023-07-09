@@ -3148,7 +3148,7 @@ if game.PlaceId == 1962086868 then
 			
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "Warning";
-				Text = "Is Banable. Disabled From Now On.";
+				Text = "Is Bannable. Disabled From Now On.";
 				Duration = 5;
 			})
 			
@@ -3342,6 +3342,18 @@ else
 	if game.PlaceId == 3582763398 then
 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ir9NMSF9msdka9erdopaUDHGFU89ASDYdfgs/IGNORE2423423423545654/main/wda34asnawe%23w"))()
+
+	end
+
+	if game.PlaceId == 5253186791 then
+
+					game.StarterGui:SetCore("SendNotification", {
+				Title = "Important";
+				Text = "I deeply apologize if you got banned using exhibition hub. I am trying my best to update it to make it even stronger and less bannable.";
+				Duration = 5;
+			})
+
+		loadstring(
 
 	end
 	
