@@ -2892,7 +2892,7 @@ if game.PlaceId == 1962086868 then
 
 
 						wait(3)
-						
+
 						local zeroVelocity = Vector3.new(0,0,0)
 
 						local function removeVelocity(character)
@@ -2900,9 +2900,9 @@ if game.PlaceId == 1962086868 then
 							primaryPart.AssemblyLinearVelocity = zeroVelocity
 							primaryPart.AssemblyAngularVelocity = zeroVelocity 
 						end
-						
+
 						removeVelocity(game:GetService("Players").LocalPlayer.Character)
-						
+
 
 
 						farmstatus.Text = "Waiting for next round."
@@ -3145,21 +3145,21 @@ if game.PlaceId == 1962086868 then
 			tptoolgiv.TextColor3 = Color3.fromRGB(0, 163, 0)
 			wait(0.3)
 			tptoolgiv.TextColor3 = Color3.fromRGB(163, 0, 0)
-			
+
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "Warning";
 				Text = "Is Bannable. Disabled From Now On.";
 				Duration = 5;
 			})
-			
+
 		end)
 
 		sayhi.MouseButton1Down:Connect(function()
-			
+
 			sayhi.TextColor3 = Color3.fromRGB(0, 163, 0)
 			wait(0.3)
 			sayhi.TextColor3 = Color3.fromRGB(163, 0, 0)
-			
+
 			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Fortnite bhxalls 🎵", "All")
 			wait(1)
 			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm g4xay 🎵", "All")
@@ -3347,17 +3347,17 @@ else
 
 	if game.PlaceId == 5253186791 then
 
-					game.StarterGui:SetCore("SendNotification", {
-				Title = "Important";
-				Text = "I deeply apologize if you got banned using exhibition hub. I am trying my best to update it to make it even stronger and less bannable.";
-				Duration = 5;
-			})
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Important";
+			Text = "I deeply apologize if you got banned using exhibition hub. I am trying my best to update it to make it even stronger and less bannable.";
+			Duration = 15;
+		})
 
-		loadstring(
-
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ir9NMSF9msdka9erdopaUDHGFU89ASDYdfgs/ANOTHERONE03245324534564655/main/wdsawdASDaw"))()
+		
 	end
-	
-	
+
+
 	if game.PlaceId == 3582763398 or 1962086868 then
 		print("exhibition hub - cleared errors.")
 
